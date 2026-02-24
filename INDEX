@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>My Movie Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+        }
+
+        header {
+            background: #e50914;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .movie-card {
+            background: #1c1c1c;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .movie-card h3 {
+            margin: 10px 0 5px;
+            font-size: 16px;
+        }
+
+        .movie-card p {
+            font-size: 13px;
+            color: #ccc;
+            padding: 0 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0 15px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 6px 10px;
+            font-size: 13px;
+            border-radius: 4px;
+            color: white;
+        }
+
+        .watch {
+            background: #00aaff;
+        }
+
+        .download {
+            background: #28a745;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🎬 My Movie Website
+</header>
+
+<div class="container">
+
+    <!-- Movie 1 -->
+    <div class="movie-card">
+        <img src="poster1.jpg" alt="Movie Poster">
+        <h3>Movie Name 1</h3>
+        <p>यहाँ मूवी का छोटा सा डिस्क्रिप्शन लिखो</p>
+        <div class="buttons">
+            <a href="WATCH-LINK-HERE" class="watch" target="_blank">Watch</a>
+            <a href="DOWNLOAD-LINK-HERE" class="download" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <!-- Movie 2 -->
+    <div class="movie-card">
+        <img src="poster2.jpg" alt="Movie Poster">
+        <h3>Movie Name 2</h3>
+        <p>यहाँ मूवी का छोटा सा डिस्क्रिप्शन लिखो</p>
+        <div class="buttons">
+            <a href="WATCH-LINK-HERE" class="watch" target="_blank">Watch</a>
+            <a href="DOWNLOAD-LINK-HERE" class="download" target="_blank">Download</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | All Rights Reserved
+</footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <title>My Movie Website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: #fff;
+        }
+
+        header {
+            background: #e50914;
+            padding: 15px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+            gap: 15px;
+            padding: 15px;
+        }
+
+        .movie-card {
+            background: #1c1c1c;
+            border-radius: 8px;
+            overflow: hidden;
+            text-align: center;
+        }
+
+        .movie-card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+        }
+
+        .movie-card h3 {
+            margin: 10px 0 5px;
+            font-size: 16px;
+        }
+
+        .movie-card p {
+            font-size: 13px;
+            color: #ccc;
+            padding: 0 10px;
+        }
+
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0 15px;
+        }
+
+        .buttons a {
+            text-decoration: none;
+            padding: 6px 10px;
+            font-size: 13px;
+            border-radius: 4px;
+            color: white;
+        }
+
+        .watch {
+            background: #00aaff;
+        }
+
+        .download {
+            background: #28a745;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px;
+            font-size: 12px;
+            color: #aaa;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    🎬 My Movie Website
+</header>
+
+<div class="container">
+
+    <!-- Movie 1 -->
+    <div class="movie-card">
+        <img src="poster1.jpg" alt="Movie Poster">
+        <h3>Movie Name 1</h3>
+        <p>यहाँ मूवी का छोटा सा डिस्क्रिप्शन लिखो</p>
+        <div class="buttons">
+            <a href="WATCH-LINK-HERE" class="watch" target="_blank">Watch</a>
+            <a href="DOWNLOAD-LINK-HERE" class="download" target="_blank">Download</a>
+        </div>
+    </div>
+
+    <!-- Movie 2 -->
+    <div class="movie-card">
+        <img src="poster2.jpg" alt="Movie Poster">
+        <h3>Movie Name 2</h3>
+        <p>यहाँ मूवी का छोटा सा डिस्क्रिप्शन लिखो</p>
+        <div class="buttons">
+            <a href="WATCH-LINK-HERE" class="watch" target="_blank">Watch</a>
+            <a href="DOWNLOAD-LINK-HERE" class="download" target="_blank">Download</a>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    © 2026 | All Rights Reserved
+</footer>
+
+</body>
+</html><img src="https://example.com/movie.jpg">
